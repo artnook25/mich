@@ -1,0 +1,76 @@
+/* CSS3 Homework week 2 6-24-2025*/
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 85% ;
+    background-color: #e6d3e5;
+}
+
+header {
+    background-color: #ffc0cb;
+    font-size: 110%;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #ffc0cb;
+    text-align: center;
+    display: inline-block;
+    width: 80%;
+}
+
+nav img {
+    width: 10%;
+    position: relative;
+}
+
+main {background-color: #fff8dc;
+    font-size: 120%;
+}
+
+.grid-div {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly;
+    align-items: anchor-center;
+    row-gap: 15px;
+}
+
+.grid-div img {
+    width: 100%;
+}
+
+.flex-div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 15px;
+    justify-content: space-evenly;
+}
+
+footer {background-color: #fcacba;}
+
+/*will change list items*/
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+li {
+    align-self: center;
+}
+
+/* styling from Homework week 1
+li {display: inline-flex;
+    width: 20cap;
+} */
+
+h1 {text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #8b4513;
+}
+
+p {line-height: 135%;}
