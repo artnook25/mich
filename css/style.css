@@ -1,4 +1,4 @@
-/* CSS3 Homework week 2 6-24-2025*/
+/* CSS3 Homework week 2 6-30-2025*/
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -8,7 +8,7 @@ body {
 
 header {
     background-color: #ffc0cb;
-    font-size: 110%;
+    font-size: 120%;
     margin-top: 10px;
 }
 
@@ -22,6 +22,13 @@ nav {
 nav img {
     width: 10%;
     position: relative;
+    top: 10px;
+}
+
+.navbox {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 }
 
 main {background-color: #fff8dc;
@@ -50,8 +57,8 @@ main {background-color: #fff8dc;
 
 footer {background-color: #fcacba;}
 
-/*will change list items*/
 ul {
+    padding-top: 10px;
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
@@ -61,6 +68,7 @@ ul {
 
 li {
     align-self: center;
+    padding: 15px;
 }
 
 /* styling from Homework week 1
